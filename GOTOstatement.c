@@ -5,18 +5,18 @@ int main()
 	int num,i,j;
 	 for ( i = 0; i <5; i++)
 	{
-		//printf("%d\n",i);
+		printf("%d\n",i);
 	    for( j = 0; j<8; j++)
 		{
-			printf("\n%d\t",j);
-		//	scanf("%d", &num);
-		//	if(num==0)
-		//	{
-		//		goto end;
-		//	}
+			printf("%d\t",j);
+			scanf("%d", &num);
+			if(num==0)
+		{
+				goto end;
+		}
 		}
 	}
-	//end:
+	end:
 	
 	return 0;
 }
